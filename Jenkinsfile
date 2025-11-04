@@ -18,6 +18,13 @@ pipeline {
             }
         }
 
+        stage('Check JAVA_HOME') {
+            steps {
+                sh 'echo $JAVA_HOME'
+                sh '$JAVA_HOME/bin/java -version'
+            }
+        }
+
         stage('Build') {
             steps {
                 echo 'Building the application...'
