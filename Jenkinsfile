@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        jdk 'OpenJDK-21'          // use your JDK name from Jenkins Tools
+        jdk 'Temurin-21'          // use your JDK name from Jenkins Tools
         maven 'Maven-Auto'        // or SystemMaven if manually installed
     }
 
