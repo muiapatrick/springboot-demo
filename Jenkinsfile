@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         jdk 'OpenJDK-21'          // use your JDK name from Jenkins Tools
-        maven 'Maven-Auto'        // or SystemMaven if manually installed
+        maven 'SystemMaven'        // or SystemMaven if manually installed
     }
 
     environment {
