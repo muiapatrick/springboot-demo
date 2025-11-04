@@ -1,0 +1,16 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /api/v1
+spring:
+    application:
+        name: demo
+    datasource:
+        url: jdbc:postgresql://<dbhost>:5432/crud_db
+        username: admin
+        password: secret
+    jpa:
+        hibernate:
+            ddl-auto: none
+        show-sql: true
+
